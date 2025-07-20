@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M Abdullah – Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+  <!-- Home Icon -->
+  <a href="#home" class="home-icon">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/home.png" alt="Home">
+  </a>
+
+  <!-- Header Section -->
+  <section id="home">
+    <h1>Welcome to M Abdullah's Portfolio</h1>
+  </section>
+
+  <!-- Name -->
+  <div id="top-left-name">M Abdullah</div>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_u8o7BL.json" background="transparent" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+    <h2>M Abdullah</h2>
+    <p>
+      I'm a passionate data science student, eager to explore real-world applications of AI, machine learning, and statistics.
+    </p>
+    <div class="links">
+      <a href="mailto:abdullahstan981@gmail.com">📧 Email</a>
+      <a href="https://github.com/AbdullahNadeem10" target="_blank">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/muhammad-abdullah-nadeem" target="_blank">💼 LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_49rdyysj.json" background="transparent" speed="1" style="width: 70px; height: 70px;" loop autoplay></lottie-player>
+        <p>Python</p>
+      </div>
+      <div class="skill">
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_iwmd6pyr.json" background="transparent" speed="1" style="width: 70px; height: 70px;" loop autoplay></lottie-player>
+        <p>Machine Learning</p>
+      </div>
+      <div class="skill">
+        <img src="https://img.icons8.com/?size=100&id=wDKHrGlFU936&format=png&color=000000" alt="SQL" style="width: 70px; height: 70px;">
+        <p>SQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Inflation Forecasting</h3>
+      <p>Used ARIMA, SVM, and Random Forest to forecast inflation, evaluated with R² scores.</p>
+    </div>
+    <div class="project">
+      <h3>HR Management System</h3>
+      <p>Built a system for managing employees, attendance, and payroll using JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>COVID-19 Dashboard</h3>
+      <p>Dashboard using Dash & Plotly for live global COVID-19 tracking and trends.</p>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="card">Abdullah is a focused learner and an excellent collaborator.</div>
+    <div class="card">He brings creativity and technical skill to every project.</div>
+    <div class="card">Always eager to grow, Abdullah is a valuable team member.</div>
+
+    <h3>Add Your Recommendation</h3>
+    <textarea id="recommendationInput" rows="4" placeholder="Write your recommendation..."></textarea><br>
+    <button onclick="addRecommendation()">Submit</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
